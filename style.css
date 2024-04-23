@@ -1,0 +1,9 @@
+header {
+    background-color: #000000;
+    font-family: "Kode Mono", monospace;
+    display: grid;
+    grid-column: 2 / 11;
+    grid-row: 1 / 2;
+    place-items: center;
+    padding: 25px 25px;
+}
