@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 header {
     background-color: #000000;
     font-family: "Kode Mono", monospace;
@@ -6,4 +7,15 @@ header {
     grid-row: 1 / 2;
     place-items: center;
     padding: 25px 25px;
+    font color: #000;
+}
+
+header a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Kode Mono", monospace;
+    text-decoration: underline;
+    font-size: 25px;
+    text-shadow:6px 6px 12px #b01e1e; 
 }
