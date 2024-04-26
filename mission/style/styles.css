@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+header h2 {
+    color: #006EB6;
+    text-decoration: underline;   
+}
+main {
+    text-align: center; 
+}
+
+main p{
+    text-align: left;
+}
+
+.content{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+footer .logo{
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
