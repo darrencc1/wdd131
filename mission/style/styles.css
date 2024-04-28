@@ -2,27 +2,35 @@ header {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1.5;
-}
-header h2 {
-    color: #006EB6;
-    text-decoration: underline;   
-}
-main {
-    text-align: center; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-main p{
+header h2 {
+    color: #006EB6;
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
     text-align: left;
 }
 
-.content{
+.content {
     max-width: 600px;
     margin: 100px auto;
     padding: 0 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
 }
 
-footer .logo{
+footer .logo {
     width: 150px;
     height: auto;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
