@@ -9,11 +9,16 @@ header {
 
 header h2 {
     color: #006EB6;
-    text-decoration: underline;
+    font-size:14px;
 }
 
+body {
+    margin: 32px;
+    border: 1px solid grey; 
+}
 main {
-    text-align: center;
+    text-align: left;
+  
 }
 
 main p {
