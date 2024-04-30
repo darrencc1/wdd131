@@ -1,3 +1,18 @@
+/* html selectors selectorName*/
+/* class selectors .className */
+/* id selectors #idName CAN ONLY BE USED ONCE!*/
+/* order of specificity id, class, html selector name.  */
+
+article{
+    color:red;
+}
+article.blue{
+    color:blue;
+}
+
+#unique {
+    color:green;
+}
 
 header {
     background-color: #000000;
