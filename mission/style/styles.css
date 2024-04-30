@@ -13,8 +13,9 @@ header h2 {
 }
 
 body {
-    margin: 32px;
-    border: 1px solid grey; 
+    margin:18em;
+    border: 1px solid grey;
+    padding:95px; 
 }
 main {
     text-align: left;
