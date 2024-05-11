@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+:root {
+--primary-color: #52489c;
+--secondary-color: #59c3c3;
+--accent-color: #f45b69;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: Mooli, san-serif;
+}
+body {
+    font-family: var(#52489C);
+    font-size: 1.2em;
+}  
+
+
+a {
+    color:white;
+    text-decoration: None;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ebebeb;
+    background-color: #52489c;
+    
+}
+nav{
+    padding: .5rem;
+}
+h1{
+    text-align: center;
+    padding: .5rem;
+    color:white;
+    background-color: #52489C;
+}
+
+ul {
+    display:flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    max-width: 100%;
+}
+footer{
+    color:#ebebeb;
+}
