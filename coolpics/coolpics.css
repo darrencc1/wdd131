@@ -11,6 +11,7 @@
 body {
     font-family: var(#52489C);
     font-size: 1.2em;
+    
 }  
 
 
@@ -51,4 +52,25 @@ img{
 }
 footer{
     color:#ebebeb;
+    background-color: #52489C;
+
 }
+
+.gallery{
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 3 equal-width columns */
+    gap: 5px; /* Adjust the gap between images */
+}
+.gallery img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+  }
+
+@media screen and (min-width: 700px) {
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+    menu{
+    display: none;
+    }
+  }
