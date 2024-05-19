@@ -4,61 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Pics</title>
-    <meta description="This is a photography Gallery.">
-    <link rel = "stylesheet" href = "coolpics.css">  
+    <meta name="description" content="This is a photography Gallery.">
+    <link rel="stylesheet" href="coolpics.css">
 </head>
- <body>
-    
+<body>
+    <div class="viewer hide">
+        <button class="close-viewer">X</button>
+        <img src="" alt="">
+    </div>
     <header>
         <h1>Cool Pics 📷</h1>
-        <button type="Menu">Click Me!</button>
+        <button id="menu-button" type="button">Menu</button>
         <nav>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">People</a></li>
-            <li><a href="#">Places</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <ul class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-         
-        <a href="coolpics/index.html"></a>
-
     </header>
     <main>
         <h1>Current Work</h1>
         <section class="gallery">
             <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture"> 
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">     
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
-        <figure>
-            <img src="norris-sm.jpeg" alt="picture">
-        </figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture"> 
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">     
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="picture">
+            </figure>
         </section>
     </main>
-    <footer>&copy;<span id="year">Not a real Site</span>
-    </footer>
-    <script src="coolpics.js"></script> 
+    <footer>&copy;<span id="year">Not a real Site</span></footer>
+    <script src="coolpics.js"></script>
 </body>
 </html>

@@ -30,6 +30,40 @@ ul {
     list-style: none;
 }
 
+.hide {
+    display: none;
+}
+
+.viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    z-index: 1000; /* Make sure it's above other content */
+}
+
+.viewer img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.viewer .close-viewer {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-self: start;
+    justify-self: end;
+}
+
 @media screen and (min-width: 700px) {
   section{
     grid-template-columns: 1fr, 1fr, 1fr;
